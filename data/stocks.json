@@ -1,0 +1,4 @@
+[
+  { "code": "7203", "name": "トヨタ自動車", "yield": 2.5, "benefit": "QUOカード", "months": [3, 9], "price": 320000, "industry": "輸送用機器" },
+  { "code": "9432", "name": "NTT", "yield": 3.1, "benefit": "dポイント", "months": [3], "price": 18000, "industry": "情報・通信業" }
+]

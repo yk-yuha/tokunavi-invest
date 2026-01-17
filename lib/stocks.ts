@@ -1,24 +1,13 @@
+import data from "@/data/stocks.json";
+
 export type Stock = {
   code: string;
   name: string;
-  months: number[]
+  months: number[];
   yield: number;
   benefit: string;
+  price: number;      // 予算フィルタ用（仮）
+  industry: string;   // 業種フィルタ用（仮）
 };
 
-export const stocks = [
-  {
-    code: "7203",
-    name: "トヨタ自動車",
-    yield: 2.5,
-    benefit: "QUOカード",
-    months: [3, 9],
-  },
-  {
-    code: "9432",
-    name: "NTT",
-    yield: 3.1,
-    benefit: "dポイント",
-    months: [3],
-  },
-];
+export const stocks: Stock[] = data as Stock[];
